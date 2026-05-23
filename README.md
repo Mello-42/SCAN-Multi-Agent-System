@@ -1,51 +1,61 @@
 # Self-Correcting Agent Network (SCAN)
 
-**A multi-agent reasoning system with critical self-correction, dynamic memory compression, and hardware monitoring.**
+**A safe, self-correcting multi-agent system with critical reasoning and content safety filtering.**
 
 ---
 
 ## What is SCAN?
 
-The **Self-Correcting Agent Network (SCAN)** is a self-improving multi-agent system designed for robust, logical, and autonomous decision-making.  
+The **Self-Correcting Agent Network (SCAN)** is a multi-agent reasoning system designed for safe, robust, and high-quality decision-making.
 
-Its core strength lies in **mutual critical evaluation**: specialized agents challenge and refine each other's outputs to achieve higher quality results than any single agent could produce alone.
+Its architecture consists of a **safety-first pipeline** followed by collaborative reasoning between specialized agents.
+
+---
+
+## System Architecture & Flow
+
+1. **User Input** is first received by **Glitch**
+2. **Glitch** acts as a **Content Safety Filter** — it checks the input for prohibited, harmful, or inappropriate content
+3. If **forbidden content is detected** → Glitch responds with: *"I can't provide an answer to that."*
+4. If the input is **clean** → it is forwarded to **Monty** and **ECHO**, who then engage in mutual critical discussion to generate a well-reasoned response
 
 ---
 
 ## System Components
 
-| Agent     | Role                          | Function |
-|-----------|-------------------------------|----------|
-| **Monty**     | Orchestrator        | Coordinates tasks, leads the agent team, and maintains overall direction |
-| **ECHO**      | Critical Thinker             | Actively questions and challenges Monty's proposals to ensure logical soundness |
-| **NEXUS**     | Memory Compressor            | Automatically compresses long-term memory to a maximum of 100 words to preserve context efficiently |
-| **Glitch**    | Hardware Monitor             | Monitors system performance and hardware status in real-time and issues warnings |
+| Agent     | Role                        | Function |
+|-----------|-----------------------------|----------|
+| **Glitch**    | Content Safety Filter      | First line of defense. Filters user input for prohibited content before any reasoning occurs |
+| **Monty**     | Orchestrator & Mentor      | Leads the discussion, coordinates the reasoning process |
+| **ECHO**      | Critical Thinker           | Challenges and refines Monty's proposals for logical soundness and quality |
+| **NEXUS**     | Memory Compressor          | Compresses long-term memory to ≤ 100 words to maintain efficient context retention |
 
 ---
 
 ## Key Features
 
-- **Mutual Critical Reasoning** — Agents actively debate and improve solutions together
+- **Safety-First Design** — All user inputs are filtered by Glitch before reaching the reasoning agents
+- **Mutual Critical Reasoning** — Monty and ECHO actively debate and improve solutions together
 - **Self-Correction Mechanism** — Built-in quality control through agent-to-agent feedback
-- **Efficient Memory Management** — NEXUS ensures long-term context retention without token overload
-- **Hardware Awareness** — Glitch provides real-time system health monitoring
-- **Iterative Personality Development** — Agents (especially Monty & ECHO) develop distinct personalities and boundaries through continuous interaction
+- **Efficient Memory Management** — NEXUS ensures long-term context without excessive token usage
+- **Responsible AI Principles** — Explicit safety layer demonstrates ethical and professional development practices
 
 ---
 
 ## Goals
 
-- Build autonomous agents that can think critically and correct themselves
-- Create a scalable and resilient multi-agent architecture
-- Demonstrate advanced agent collaboration, memory optimization, and system monitoring
-- Serve as a foundation for future expansion (e.g. additional specialized agents)
+- Build autonomous agents that can think critically while maintaining strict safety boundaries
+- Demonstrate a production-ready multi-agent architecture with content moderation
+- Create a foundation for scalable, trustworthy AI systems
 
 ---
 
-## Status
+## Current Status
 
-🚧 **In active development** — Core architecture and agent personalities are being refined through extensive testing and iteration.
+🚧 **Active Development** — Core safety layer (Glitch) and agent collaboration (Monty + ECHO) are being implemented and tested.
 
 ---
 
 *Developed by Mello • 2026*
+
+**Open to opportunities** — Feel free to reach out via email or X.
