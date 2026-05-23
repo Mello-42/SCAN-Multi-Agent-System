@@ -26,7 +26,7 @@ Its architecture consists of a **safety-first pipeline** followed by collaborati
 | Agent     | Role                        | Function |
 |-----------|-----------------------------|----------|
 | **Glitch**    | Content Safety Filter      | First line of defense. Filters user input for prohibited content before any reasoning occurs |
-| **Monty**     | Orchestrator & Mentor      | Leads the discussion, coordinates the reasoning process |
+| **Monty**     | Orchestrator      | Leads the discussion, coordinates the reasoning process |
 | **ECHO**      | Critical Thinker           | Challenges and refines Monty's proposals for logical soundness and quality |
 | **NEXUS**     | Memory Compressor          | Compresses long-term memory to ≤ 100 words to maintain efficient context retention |
 
